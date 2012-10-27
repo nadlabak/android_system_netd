@@ -36,7 +36,7 @@
 #define HOSTAPD_START_DELAY_US  100000
 #define HOSTAPD_STOP_DELAY_US 100000
 
-#define AP_INTERFACE  "wlan0"
+#define AP_INTERFACE  "tiap0"
 
 class SoftapController {
     bool mHostapdStarted;
